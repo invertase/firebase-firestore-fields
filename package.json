@@ -1,0 +1,39 @@
+{
+  "name": "firebase-firestore-fields",
+  "version": "1.0.0",
+  "description": "Convert Firebase Cloud Firestore fields into a usable JavaScript format",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "Invertase <contact@invertase.io> (http://invertase.io)",
+  "license": "APACHE-2.0",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/invertase/firebase-firestore-fields.git"
+  },
+  "keywords": [
+    "javascript",
+    "firebase",
+    "cloud firestore",
+    "firestore",
+    "firebase firestore",
+    "firestore field converter",
+    "nullValue",
+    "booleanValue",
+    "integerValue",
+    "doubleValue",
+    "timestampValue",
+    "stringValue",
+    "bytesValue",
+    "referenceValue",
+    "geoPointValue",
+    "arrayValue",
+    "mapValue"
+  ]
+}
