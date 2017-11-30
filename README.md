@@ -13,7 +13,7 @@ npm install --save firebase-firestore-fields
 ```
 
 ```js
-const convert = require('firebase-firestore-fields);
+const convert = require('firebase-firestore-fields');
 
 // typical response from a Cloud Firestore REST endpoint
 const response = {
