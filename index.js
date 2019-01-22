@@ -15,7 +15,7 @@ function parseValue(value) {
         case 'geoPointValue':
             return [value.geoPointValue.latitude, value.geoPointValue.longitude];
         case 'arrayValue':
-            return value.arrayValue.values.map(parseValue);
+            return (typeof value.arrayValue.values !== 'undefined') ? value.arrayValue.values.map(parseValue) : [];
         case 'mapValue':
             return parseFields(value.mapValue.fields);
         case 'integerValue':
