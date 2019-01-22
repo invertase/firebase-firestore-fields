@@ -6,6 +6,9 @@
   "scripts": {
     "test": "nyc mocha"
   },
+  "files": [
+    "index.js"
+  ],
   "author": "Invertase <oss@invertase.io> (http://invertase.io)",
   "license": "APACHE-2.0",
   "devDependencies": {
