@@ -1,6 +1,6 @@
 {
   "name": "firebase-firestore-fields",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Firebase Cloud Firestore API fields into a usable JavaScript format.",
   "main": "index.js",
   "scripts": {
