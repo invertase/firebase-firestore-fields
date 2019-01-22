@@ -1,17 +1,23 @@
 {
   "name": "firebase-firestore-fields",
   "version": "1.0.0",
-  "description": "Convert Firebase Cloud Firestore fields into a usable JavaScript format",
+  "description": "Convert Firebase Cloud Firestore API fields into a usable JavaScript format.",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha"
   },
-  "author": "Invertase <contact@invertase.io> (http://invertase.io)",
+  "author": "Invertase <oss@invertase.io> (http://invertase.io)",
   "license": "APACHE-2.0",
   "devDependencies": {
-    "assert": "^1.4.1",
-    "mocha": "^4.0.1",
-    "nyc": "^11.3.0"
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-import": "^2.15.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
   },
   "repository": {
     "type": "git",
@@ -21,6 +27,8 @@
     "javascript",
     "firebase",
     "cloud firestore",
+    "api",
+    "web api",
     "firestore",
     "firebase firestore",
     "firestore field converter",
